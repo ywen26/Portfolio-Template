@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #31343d;
-    padding: 20px;
+    padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: #31343d;
 }
@@ -18,9 +18,9 @@ header {
 h1 {
     background-color: #92ccce;
     display: inline-block;
-    padding: 10px;
-    padding-left: 30px;
+    padding: 10px 50px 0 30px;
     margin-left: -20px;
+    font-size: 300%;
 }
 
 header div {
@@ -36,9 +36,36 @@ header div li {
 
 header div li ul {
     display: inline-block;
-    margin-left: 25px;
+    margin: 10px 25px 0 0;
+    font-size: 150%;
 }
 
 .links {
     color: #92ccce;;
+}
+
+.link-title {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+    margin-right: 30px;
+    padding-right: 10px;
+    border-right: #445877 solid 5px;
+    font-size: 300%;
+    color: #445877;
+}
+
+.clearfix {
+    overflow: auto;
+    display: flex;
+    margin-top: 20px;
+    color: #445877;
+}
+
+.content {
+    width: 75%;
+    margin-right: 30px;
+    float: right; 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
