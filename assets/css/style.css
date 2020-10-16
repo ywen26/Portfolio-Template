@@ -47,33 +47,52 @@ header div li ul {
 .link-title {
     text-align: right;
     flex: 1 0 0;
-    width: 25%;
-    margin-right: 30px;
-    padding-right: 10px;
-    border-right: #445877 solid 5px;
+    float: left;
+    width: 18%;
+    margin: 0 15px 30px 0;
+    /* padding-right: 10px; */
+    /* border-right: #445877 solid 5px; */
     font-size: 300%;
     color: #445877;
 }
 
-.clearfix {
+/*.clearfix {
     overflow: auto;
     display: flex;
     margin: 20px 0 30px 0;
     color: #445877;
+}*/
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
     width: 70%;
-    margin: 0 100px 10px 0;
-    float: right; 
+    margin: 30px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    color: #445877;
+    border-left: #445877 solid 5px;
+    padding-left: 25px;
 }
 
+/* .title-height-2 {
+    height:860px;
+} */
+
 .work-list {
-    float: right;
+    /*float: left;*/
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
+    border-left: #445877 solid 5px;
+    margin-bottom: 25px;
+    padding: 0 0 10px 25px;
 }
 
 .work {
@@ -87,5 +106,43 @@ header div li ul {
     width: 825px;
     height: 400px;
     border: #92ccce solid 5px;
-    margin-right: 25px;
+    margin: 5px 25px 0 0;
+}
+
+/* .title-height-3 {
+    height: 100px;
+} */
+
+/* .contact-list {
+    width: 70%;
+    /* margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.contact-list ul {
+    width: 68%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 25px; */
+    justify-content: space-around;
+    align-content: center;
+    border-left: #445877 solid 5px;
+    padding: 40px 0 60px 0;
+}
+
+.contact-list ul li {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 150%;
+}
+
+.contact-list ul li a {
+    text-decoration: none;
+    color: #1c1d21;
+    border-bottom: #445877 solid 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3px;
 }
