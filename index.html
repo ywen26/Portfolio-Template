@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Yuwen's Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
@@ -13,16 +13,20 @@
         <h1>Yuwen Yu</h1>
         <div>
             <li>
-                <ul><a class="links" href="#about">About Me</a></ul>
-                <ul><a class="links" href="#project-work">Work</a></ul>
+                <ul><a class="links" href="#about-me">About Me</a></ul>
+                <ul><a class="links" href="#work">Work</a></ul>
                 <ul><a class="links" href="#contact-me">Contact Me</a></ul>
                 <ul><a class="links" href="#resume">Resume</a></ul>
             </li>
         </div>
     </header>
 
+    <div id="hero">
+        <p>Full Stack development</p>
+    </div>
+
     <main>
-        <section class="clearfix">
+        <section id="about-me" class="clearfix">
             <h2 class="link-title">About<br>Me</h2>
             <div class="content">
                 <p>
@@ -42,34 +46,44 @@
             </div>
         </section>
 
-        <section class="clearfix">
-            <h2 class="link-title title-height-2">Work</h2>
+        <section id="work" class="clearfix">
+            <h2 class="link-title">Work</h2>
             <div class="work-list">
-                <div class="first-work">
-                    <h3>Serf Report</h3>
-                    <p>MERN Stack</p>
-                </div>
-                <div class="work">
-                    <h3>LED Wall</h3>
-                    <p>Node/loT</p>
-                </div>
-                <div class="work">
-                    <h3>Calculator</h3>
-                    <p>React/JavaScript/CSS</p>
-                </div>
-                <div class="work">
-                    <h3>Pastel Puzzels</h3>
-                    <p>MERN Stack</p>
-                </div>
-                <div class="work">
-                    <h3>Run Buddy</h3>
-                    <p>HTML/CSS</p>
-                </div>
+                <a href="#work-1" class="first-work box-1">
+                    <div class="work-intro">
+                        <h3>Serf Report</h3>
+                        <p>MERN Stack</p>
+                    </div>
+                </a>
+                <a href="#work-2" class="work box-2">
+                    <div class="work-intro">
+                        <h3>LED Wall</h3>
+                        <p>Node/loT</p>
+                    </div>
+                </a>
+                <a href="#work-3" class="work box-3">
+                    <div class="work-intro">
+                        <h3>Calculator</h3>
+                        <p>React/JavaScript/CSS</p>
+                    </div>
+                </a>
+                <a href="#work-4" class="work box-4">
+                    <div class="work-intro">
+                        <h3>Pastel Puzzels</h3>
+                        <p>MERN Stack</p>
+                    </div>
+                </a>
+                <a href="work-5" class="work box-5">
+                    <div class="work-intro">
+                        <h3>Run Buddy</h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                </a>
             </div>
         </section>
 
-        <section class="clearfix">
-            <h2 class="link-title title-height-3">Contact<br> Me</h2>
+        <section id="contact-me" class="clearfix">
+            <h2 class="link-title">Contact<br> Me</h2>
             <div class="contact-list">
                 <ul>
                     <li><a href="#phone">206.235.1576</a></li>
@@ -82,11 +96,5 @@
         </section>
     </main>
 
-    <footer>
-        <p>
-            &copy; Yuwen Yu All Rights Reserved 2020
-        </p>
-    </footer>
-    
 </body>
 </html>
