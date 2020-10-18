@@ -193,7 +193,7 @@ nav li ul {
 }
 
 /* Responsive design for smaller screen devices */
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 768px) {
     nav {
         float: none;
         text-align: center;
