@@ -23,3 +23,22 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+
+## Appearance of Portfolio:
+
+The following is the appearance of desktop/laptop:
+
+![large screen](./Assets/images/screenshot.png)
+
+And this is the appearance of smaller tablet:
+
+![smaller screen](./Assets/images/screenshot-2.png)
+
+## URL source
+Feel free to check the web application: [https://ywen26.github.io/Portfolio-Template/](https://ywen26.github.io/Portfolio-Template/)
+
+And github repository: [https://github.com/ywen26/Portfolio-Template](https://github.com/ywen26/Portfolio-Template)
+
+## Credits
+
+Image sources: [https://www.pexels.com/](https://www.pexels.com/)
