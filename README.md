@@ -28,7 +28,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following is the appearance of desktop/laptop:
 
-![large screen](./Assets/images/screenshot.png)
+![large screen](./assets/images/screenshot.png)
+
+And this is the appearance of smaller tablet:
+
+![smaller screen](./assets/images/screenshot-2.png)
 
 ## URL source
 Feel free to check the web application: [https://ywen26.github.io/Portfolio-Template/](https://ywen26.github.io/Portfolio-Template/)
