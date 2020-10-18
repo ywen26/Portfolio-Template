@@ -34,7 +34,7 @@ And this is the appearance of smaller tablet:
 
 ![smaller screen](./assets/images/screenshot-2.png)
 
-## URL source
+## URL sources
 Feel free to check the web application: [https://ywen26.github.io/Portfolio-Template/](https://ywen26.github.io/Portfolio-Template/)
 
 And github repository: [https://github.com/ywen26/Portfolio-Template](https://github.com/ywen26/Portfolio-Template)
