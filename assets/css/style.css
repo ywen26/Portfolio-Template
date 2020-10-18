@@ -2,6 +2,7 @@ body {
     background-color: #eeeef7;
 }
 
+/* Below is the part for header and links options */
 header {
     background-color: #31343d;
     padding: 15px;
@@ -37,6 +38,7 @@ nav li ul {
     color: #92ccce;;
 }
 
+/* Style the part of background picture */
 #hero {
     display: flex;
     justify-content: flex-end;
@@ -60,6 +62,7 @@ nav li ul {
     font-weight: 700;
 }
 
+/* For each section's titles */
 .link-title {
     text-align: right;
     flex: 1 0 0;
@@ -76,6 +79,7 @@ nav li ul {
     clear: both;
 }
 
+/* For the body part of "About me" introducton */
 .content {
     display: flex;
     flex-direction: column;
@@ -88,6 +92,7 @@ nav li ul {
     padding-left: 25px;
 }
 
+/* Below are for the design of projects list */
 .work-list {
     width: 80%;
     display: flex;
@@ -95,16 +100,6 @@ nav li ul {
     border-left: #445877 solid 5px;
     margin-bottom: 25px;
     padding: 0 0 10px 25px;
-}
-
-.work {
-    display: flex;
-    flex-direction: column;
-    border: #92ccce solid 5px;
-    width: 400px;
-    height: 200px;
-    margin: 25px 25px 0 0;
-    text-decoration: none;
 }
 
 .first-work {
@@ -117,6 +112,17 @@ nav li ul {
     text-decoration: none;
 }
 
+.work {
+    display: flex;
+    flex-direction: column;
+    border: #92ccce solid 5px;
+    width: 400px;
+    height: 200px;
+    margin: 25px 25px 0 0;
+    text-decoration: none;
+}
+
+/* Style the subtitle and background display of each project */
 .work-intro {
     background-color: #92ccce;
     color: #1c1d21;
@@ -160,6 +166,7 @@ nav li ul {
     opacity: 0.6;
 }
 
+/* Below are the part for footer of contacts list */
 .contact-list ul {
     width: 68%;
     list-style-type: none;
@@ -185,6 +192,7 @@ nav li ul {
     padding-bottom: 3px;
 }
 
+/* Responsive design for smaller screen devices */
 @media screen and (max-width: 812px) {
     nav {
         float: none;
